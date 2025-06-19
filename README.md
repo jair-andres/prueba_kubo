@@ -157,49 +157,6 @@ Si tienes dudas o sugerencias, no dudes en enviar un correo electronico jairbarr
 
 ---
 
-## Modelo Base De Datos
-
-┌────────────────────────┐
-│        Users           │
-├────────────────────────┤
-│ id (PK)                │
-│ username (UNIQUE)      │
-│ password               │
-│ email                  │
-└────────────────────────┘
-           │
-           │ 1
-           ▼
-┌────────────────────────┐
-│         Views          │
-├────────────────────────┤
-│ user_id (FK → Users)   │
-│ movie_id (FK → Movies) │
-└────────────────────────┘
-           ▲
-           │ N
-           │
-┌────────────────────────┐
-│        Movies          │
-├────────────────────────┤
-│ id (PK)                │
-│ name                   │
-│ description            │
-│ date                   │
-│ category_id (FK)       │
-└────────────────────────┘
-           │ N
-           │
-           ▼
-┌────────────────────────┐
-│      Categories        │
-├────────────────────────┤
-│ id (PK)                │
-│ name                   │
-│ description            │
-└────────────────────────┘
-
-
 ## CUESTIONARIO
 - ¿Cuál es el propósito de "module.exports"?
 RTA: Sirve para definir un modulo, encapsular y referenciar funciones para usarlas en distintas interfaces y lugares del proyecto. 
