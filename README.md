@@ -144,7 +144,7 @@ npm test        # Ejecuta los tests con jest y supertest
 
 ### Diagrama:
 
-![Modelo Relacional](./relational-model.png)
+![Modelo Relacional](relational-model.png)
 
 ## 📌 Notas
 
