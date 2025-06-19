@@ -157,22 +157,31 @@ Si tienes dudas o sugerencias, no dudes en enviar un correo electronico jairbarr
 
 ---
 
-**¡Gracias! 🎥**
 
-CUESTIONARIO
-¿Cuál es el propósito de "module.exports"?
+
+## CUESTIONARIO
+- ¿Cuál es el propósito de "module.exports"?
 RTA: Sirve para definir un modulo, encapsular y referenciar funciones para usarlas en distintas interfaces y lugares del proyecto. 
-¿Qué es un middleware?
+
+- ¿Qué es un middleware?
 RTA: Es una funcioalidad la cual intercepta las peticiones https o funcionalidades normalmente lo uso para validar tokens, funciones o validaciones antes de acceder a un modulo o ruta.
-¿Cual es la diferencia entre código bloqueante y código no bloqueante?
+
+- ¿Cual es la diferencia entre código bloqueante y código no bloqueante?
 RTA: El codigo bloqueante es el que se ejecuta linealmente hasta que se termine el proceso, el codigo no bloqueante permite ejecutar varias funciones a la vez o en un orden determinado ejemplo como las funciones asincronicas y las promesas, etc.
-¿Qué biblioteca de javascript usaría para manejar datos en tiempo real?
+
+- ¿Qué biblioteca de javascript usaría para manejar datos en tiempo real?
 RTA: Usaria Socket.IO para manejar los datos en tiempo real con websockets 
-¿Cual es la principal ventaja de trabajar un proyecto dockerizado?
+
+- ¿Cual es la principal ventaja de trabajar un proyecto dockerizado?
 RTA: Tienes muchas herramientas para realizar un deploy seguro y eficientemente con diferentes tecnologias y versiones
-¿Cual es la diferencia entre una imagen y un volumen en Docker?
+
+- ¿Cual es la diferencia entre una imagen y un volumen en Docker?
 RTA: imagen normalmente se usa para desplegar software, backend o fronted leguajes de progrmación de logíca y los volumenes para el manejos de informacion y desplegar bases de datos
-¿Con qué herramienta se puede orquestar un proyecto con múltiples imágenes en docker?
+
+- ¿Con qué herramienta se puede orquestar un proyecto con múltiples imágenes en docker?
 RTA: La creacion del archivo docker-compose.yml en el cual tenemos todas las imagenes de un proyecto, creando el entorno de un proyecto.
-¿Cual es la principal ventaja de trabajar con cluster de kubernetes?
+
+- ¿Cual es la principal ventaja de trabajar con cluster de kubernetes?
 RTA: En este momento no tengo experiencia manejando cluster de kubernetes
+
+**¡Gracias! 🎥**
